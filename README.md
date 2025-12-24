@@ -66,8 +66,8 @@ Localhost: http://localhost:5173/
 # Bağımlılıkları yükle
 npm install
 
-MONGODB_URI=mongodb+srv://badingaguyde_db_user:Zl1iOanxMEgPMT6C@firstcluster.pkkgxmw.mongodb.net/mekanbul?appName=FirstCluster*
-JWT_SECRET=super_secret_key_123
+=
+=
 
 # Geliştirme sunucusunu başlat
 npm run dev
