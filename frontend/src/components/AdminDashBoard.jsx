@@ -20,7 +20,9 @@ const AdminDashBoard = () => {
 
     useEffect(() => {
         if (count === 0) {
-            setCount(10);
+            localStorage.removeItem("token");
+            localStorage.removeItem("user");
+            return <Navigate to="/login" state={{ from: location }} replace />;
         }
         const timer = setTimeout(() => {
             setCount((prev) => prev - 1);
