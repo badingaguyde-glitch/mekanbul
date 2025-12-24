@@ -57,7 +57,7 @@ function AddVenue(){
     return (
         <>
       {/* Sayfa başlığı - Önceki sayfadan gelen mekan adını göster */}
-      
+      <Header headerText="Yönetici" motto="Yeni mekan ekleyin!" />
       <div className="row">
         <div className="col-xs-12 col-md-6">
           {/* Venue ekleme formu */}

@@ -19,7 +19,9 @@ const AdminDashBoard = () => {
     const onClick=()=>navigate("/admin/venues/new");
 
     useEffect(() => {
-
+        if (count === 0) {
+            setCount(10);
+        }
         const timer = setTimeout(() => {
             setCount((prev) => prev - 1);
         }, 1000);
