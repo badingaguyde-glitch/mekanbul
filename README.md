@@ -1,5 +1,5 @@
 Mekanbul Backend
-🔗 Demo: https://backend-alpha-dusky-58.vercel.app/
+🔗 Demo: https://mekanbul-backend-six.vercel.app/
 
 Bu repo mekanbul-backend uygulamasının basit Node.js + Express + Mongoose backend'idir.
 
@@ -60,7 +60,7 @@ Mekanbul React Front-End
 Mekanbul, kullanıcıların çevrelerindeki mekanları keşfetmesini ve yorum yapmasını sağlayan bir React tabanlı Single Page Application (SPA) projesidir.
 
 Canlı Linkler
-Vercel: https://mekanful-frontend.vercel.app
+Vercel: https://mekanbul-frontend-drab.vercel.app/
 Localhost: http://localhost:5173/
 🚀 Kurulum ve Çalıştırma
 # Bağımlılıkları yükle
