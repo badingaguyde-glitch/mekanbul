@@ -1,0 +1,29 @@
+const database = 'mekanbul';
+use(database);
+db.venues.insertOne(
+{
+  "name": "ALİNA SUSHİ",
+  "address": "Sanayi Mahallesi, Atatürk Bulvarı No: 73/104 C-E Blok",
+  "rating": 4.5,
+  "foodanddrink": [
+    "Sushi", "Asya usulü yemekler", "deniz ürünleri" , "çeşitli Asya tatları"
+  ],
+  "coordinates": [
+    37.781573, 30.564682
+  ],
+  "hours": [
+    {
+      "days": "Pazartesi-Cuma",
+      "open": "10:00",
+      "close": "0:00",
+      "isClosed": false
+    },
+    {
+      "days": "Cumartesi-Pazar",
+      "open": "10:00",
+      "close": "0:00",
+      "isClosed": false
+    }
+  ]
+}
+ );

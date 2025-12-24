@@ -1,0 +1,14 @@
+const database = 'mekanbul';
+use(database);
+db.venues.updateOne({"name":"ALİNA SUSHİ"},
+  {$push: {"comments": 
+    {
+      "_id": ObjectId(),
+      "author": "Badinga",
+      "rating": 5,
+      "text": "En guzel syshileri burada yedim, kesinlikle tavsiye ederim!",
+      "date": new Date()
+    }
+  }
+}
+)
