@@ -22,7 +22,7 @@ const AdminDashBoard = () => {
         if (count === 0) {
             localStorage.removeItem("token");
             localStorage.removeItem("user");
-            return <Navigate to="/login" state={{ from: location }} replace />;
+            navigate("/login", { state: { from: location }, replace: true });
         }
         const timer = setTimeout(() => {
             setCount((prev) => prev - 1);
